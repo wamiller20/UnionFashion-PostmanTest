@@ -145,6 +145,21 @@
 				},
 				{
 					"name": "random joke API",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "acba22bd-f0ff-4523-b786-135487e80b53",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
 					"id": "d5c7e0f5-6e34-4716-9691-1e1441402e23",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
