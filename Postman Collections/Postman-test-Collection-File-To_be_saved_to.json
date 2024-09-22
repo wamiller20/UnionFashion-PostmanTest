@@ -142,6 +142,20 @@
 							"body": "{\n  \"code\": \"<integer>\",\n  \"message\": \"<string>\"\n}"
 						}
 					]
+				},
+				{
+					"name": "random joke API",
+					"id": "d5c7e0f5-6e34-4716-9691-1e1441402e23",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://official-joke-api.appspot.com/random_joke",
+						"description": "Generated from cURL: curl --location 'https://official-joke-api.appspot.com/random_joke'"
+					},
+					"response": []
 				}
 			],
 			"id": "3e152d54-c297-467c-830a-c23a79c9bbb5"
