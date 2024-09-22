@@ -177,6 +177,21 @@
 		},
 		{
 			"name": "pokemon",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "41f42ab1-7c39-4c08-9758-ad7235cebf18",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"id": "1c1d9a7e-0957-4973-829d-3d3981fb8884",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
